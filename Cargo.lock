@@ -3,25 +3,6 @@
 version = 4
 
 [[package]]
-name = "Random-Cat-Facts"
-version = "0.1.0"
-dependencies = [
- "actix-cors",
- "actix-web",
- "chrono",
- "dotenv",
- "env_logger",
- "log",
- "r2d2",
- "rand",
- "reqwest",
- "serde",
- "serde_json",
- "sha2",
- "tokio",
-]
-
-[[package]]
 name = "actix-codec"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2241,6 +2222,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1"
 dependencies = [
  "bitflags 2.9.1",
+]
+
+[[package]]
+name = "word-analyser"
+version = "0.1.0"
+dependencies = [
+ "actix-cors",
+ "actix-web",
+ "chrono",
+ "dotenv",
+ "env_logger",
+ "log",
+ "r2d2",
+ "rand",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tokio",
 ]
 
 [[package]]
